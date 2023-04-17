@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "fake-api":"json-server --watch src/app/api/de.json --port 5000"
   },
   "dependencies": {
     "next": "13.3.0",
